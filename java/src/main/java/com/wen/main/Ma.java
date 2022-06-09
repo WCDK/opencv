@@ -13,8 +13,10 @@ public class Ma {
 
 
     public static void main(String[] paramArrayOfString) throws UnsupportedEncodingException {
-        String path = "e:\\2\\3.jpg";
-        String knpath=System.getProperty("user.dir")+"\\KN";
+        String base = System.getProperty("user.dir");
+        String path = base+"\\file\\3.jpg";
+        System.out.println(path);
+        String knpath=base+"\\KN";
         Ma m = new Ma();
         String distinguish = m.distinguish(path,knpath);
         System.out.println(distinguish);
