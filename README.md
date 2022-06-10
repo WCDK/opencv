@@ -1,4 +1,4 @@
-# opencv
+# opencv （不能更改工程结构 包名 类名 否则不能运行）
 https://opencv.org/releases/ opencv下载地址
 # 需要安装opencv 并配置环境变量
     1.找到安装目录 复制到路径到 bin
